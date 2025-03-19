@@ -24,7 +24,7 @@ Run the html file to display the website: Home.html
 
 Homepage
 
-![alt text](image.png)
+![alt text](homepage1.png)
 
 Registration
 
