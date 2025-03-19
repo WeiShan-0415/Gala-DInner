@@ -1,0 +1,127 @@
+header
+{
+    align-items: center;
+    display: flex;
+    padding: 10px;
+}  
+.bannerlogo img 
+{
+    height: 80px;
+}
+.nav ul li
+{
+    list-style: none;
+    display: inline; 
+}
+.nav a 
+{
+    margin-right: 20px;
+    color: #fcf8f8;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+.nav a:hover 
+{
+    background-color: lightgray;
+    color: black;
+}
+.logo
+{
+    height: 60%;
+    width: 35%;
+    position: absolute;
+    left:33%;
+    top:25%;
+    opacity: 0.8;
+}
+
+.wordsforlogo
+{
+    height: 60%;
+    width: 39%;
+    position: absolute;
+    opacity: 1;
+    left:31%;
+    top:25%;   
+}
+
+.wordsforlogo2
+{
+    position:absolute;
+    left:31%;
+    top:12%; 
+    opacity: 0.7;
+}
+
+.Details h1
+{
+    clear:left;
+    text-align: center;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 60px;
+}
+body{
+   overflow-y: auto;
+    margin: 0%;
+}
+
+.background{
+    background-image:url("https://images.pexels.com/photos/903376/pexels-photo-903376.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin:0px;
+    
+}
+.background2{
+    background-color: #222222;
+}
+.background2 img{
+    background-color: #222222;
+    float: left;
+    width:500px;
+    height:500px;
+    padding: 20px;
+    padding-bottom: 26px;
+}
+.Details{
+    color: #fcf8f8;
+    background-color: #222222;
+    background:cover;
+    float:left;
+    margin:0px;
+    font-size: 20px;
+}
+.Details h1
+{
+    text-align: center;
+}
+.wording{
+    color:cyan;
+    font-weight:bold;
+}
+.Details i{
+    float:left;
+    width:35px;
+    height:35px;
+}
+.breakline{
+    color:#fcf8f8;
+}
+.menu img{ 
+    width:100%;
+}
+.footer {
+    background-color: #f7f7f7;
+    padding: 20px;
+    text-align: center;
+    position: flex;
+    left: 0;
+    bottom: 0;
+  }
+
+  .footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+  }

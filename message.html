@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Leave A Message</title>
+        <link rel="stylesheet" type="text/css" href="table.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <h2>Message record</h2>
+                <table class="record">
+                    <thread>
+                        <tr>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Contact</th>                            
+                            <th>Query</th>
+                        </tr>
+                    </thread>
+                    <tbody>
+                        <?php
+                            include_once('connectMessage.php');
+                            $a=1;
+                            $stmt=$file_db->prepare('SELECT * FROM message');
+                            $stmt->execute();
+                            $users=$stmt->fetchAll();
+                            foreach($users as $user)
+                            {
+                        ?> 
+                                <tr>
+                                    <td><?php echo $user['name'];?></td>
+                                    <td><?php echo $user['email'];?></td>
+                                    <td><?php echo $user['contact'];?></td>
+                                    <td><?php echo $user['query'];?></td>
+                                </tr>
+                                <?php
+                            }
+                            ?>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>

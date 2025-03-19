@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gala Dinner Registration Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="registration.css">
+</head>
+<body>
+  <div class="navigation">
+    <div class="bannerlogo">
+        <a  href="Home.html">
+            <img src="image/happyulogo.png">
+        </a>
+    </div>
+    <div class="nav">
+        <ul>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="Registration.html">Registration</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+            
+        </ul>
+    </div>
+</div>
+  <form action="registration.php" method="post">
+    <h2>Gala Dinner Registration Form</h2>
+    <label for="name">Full Name:</label>
+    <input type="text" name="name" required>
+
+    <label for="ic">IC Number:</label>
+    <input type="text" name="ic" required>
+
+    <label for="studentID">Student ID:</label>
+    <input type="text" name="studentID" required>
+
+    <label for="contact">Phone Number:</label>
+    <input type="text" name="contact" required>
+
+    <label for="email">Email:</label>
+    <input type="email" name="email" required>
+
+    <label for="restricions">Dietary Restrictions (if any):</label>
+    <textarea name="restrictions"></textarea>
+
+    <input type="submit" value="submit" name="Register">
+  </form>
+  <br><br>
+  <footer class="footer">
+    <p>&copy; HappyU Gala Dinner 2023. All rights reserved.</p>
+  </footer>
+</body>
+</html>

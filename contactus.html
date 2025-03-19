@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="contactus.css">
+
+</head>
+
+<body>
+    <div class="navigation">
+        <div class="bannerlogo">
+            <a  href="Home.html">
+                <img src="image/happyulogo.png">
+            </a>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="Registration.html">Registration</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+                
+            </ul>
+        </div>
+    </div>
+    <div class="form">
+        <form action="contactus.php" method="post">
+            <h3>Send a Message</h3>
+            <label for="name">Full Name:</label><br>
+            <input type="text" name="name" required>
+            <br><br>
+            <label for="email">Email: </label><br>
+            <input type="text"  name="email" required>
+            <br><br>
+            <label for="mobile">Mobile Number:</label><br>
+            <input type="text"  name="contact" required>
+            <br><br>
+            <label for="message">Write your message:</label><br>
+            <textarea name="query"></textarea>
+            <input type="submit" value="Send">
+        </form>
+    </div>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <div class="info">
+        <h2>Contact Information</h2>
+        <p>If you have any questions or need further information, please contact us:</p>
+        <ul class="contact-info">
+            <li>Email: <a href="mailto:galadinnerhwum23@gmail.com"> galadinnerhwum23@gmail.com</a></li>
+            <li>Phone: +60 12-888 8888</li>
+        </ul>
+    </div>  
+    <footer class="footer">
+        <p>&copy; HappyU Gala Dinner 2023. All rights reserved.</p>
+      </footer>
+</body>
+</html>
